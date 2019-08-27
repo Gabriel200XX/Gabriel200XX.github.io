@@ -2,10 +2,8 @@
 @import url('./assets/demo.css');
 
 body {
-    /* background: #999; */
     background: url('./assets/background.gif');
-    /* background-repeat: no-repeat;
-    background-size: 100%; */
+    color: #555;
     display: flex;
     justify-content: center;
     font-family: 'Gayathri', sans-serif;
@@ -24,8 +22,6 @@ body {
     width: 50%;
     font-family: "Joystix W05 Proportional";
     display: flex;
-    /* margin-left: 5%; */
-    /* text-align: center; */
 }
 
 #main_profile img {
