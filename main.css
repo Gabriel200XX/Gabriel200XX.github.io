@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+@import url('./assets/demo.css');
+
+body {
+    /* background: #999; */
+    background: url('./assets/background.gif');
+    /* background-repeat: no-repeat;
+    background-size: 100%; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Gayathri', sans-serif;
+}
+
+#content {
+    background: #fff;
+    width: 80%;
+    height: 500px;
+    margin-top: 10%;
+    border: 3px dotted #045104;
+    border-radius: 10px;
+}
+
+#main_profile {
+    width: 50%;
+    font-family: "Joystix W05 Proportional";
+    display: flex;
+    /* margin-left: 5%; */
+    /* text-align: center; */
+}
+
+#main_profile img {
+    width: 200px;
+    margin: -10% 5% 0 -10%;
+    border: 3px dotted #045104;
+    border-radius: 50%;
+}
